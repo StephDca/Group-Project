@@ -19,3 +19,24 @@ body{
 .Nav-Bar-Buttons{
     color: black;
 }
+/* TICLETS CSS */
+body{
+    .Ticket-Headline {
+        background-color:#2E215E;
+        font-family:"Rockwell"
+    }
+
+.Nav-Bar-Box{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background-color: 2C234F;
+}
+
+.Nav-Bar-Buttons-Container{
+    display: flex;
+}
+
+.Nav-Bar-Buttons{
+    color: black;
