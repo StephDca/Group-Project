@@ -43,6 +43,12 @@ body{
 
     
 /* INFO CSS */
+    body {
+  background-color: black;
+  color: rgb(255 255 204);
+  font-family: Arial, Helvetica, sans-serif, monospace;
+}
+    
     .concert-image-info {
     filter: brightness(50%);
     background-image: url("https://images.pexels.com/photos/154147/pexels-photo-154147.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
