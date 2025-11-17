@@ -1,26 +1,116 @@
-/* HOME PAGE CSS */
-body{
-    padding: 0;
-    margin: 0;
+#b1{
+    scroll-behavior: smooth;
+    color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
-.Nav-Bar-Box{
-    top: 0;
-    left: 0;
+.Nav-Bar-Box {
+    z-index: 999;
+    top: 0px;
+    left: 0px;
     width: 100%;
     height: 85px;
-    background-color: 2C234F;
-}
-
-.Nav-Bar-Buttons-Container{
+    background-color: rgb(44, 35, 79);
     display: flex;
+    gap: 200px;
 }
 
-.Nav-Bar-Buttons{
-    color: black;
+#logo {
+    margin-top: -70px;
+    height: 230px;
 }
+
+.Nav-Bar-Buttons-Container {
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+.Nav-Bar-Buttons {
+    font-size: 29px;
+    color: white;
+    cursor: pointer;
+}
+
+.heroimgContainer {
+    position: relative;
+    height: 730px;
+    width: 100%;
+    background-color: gray;
+}
+.heroText {
+    position: absolute;
+    z-index: 3;
+}
+#t1 {
+    top: 105px;
+    left: 260px;
+    font-size: 55px;
+    color: rgb(242, 215, 34);
+    font-weight: bold;
+    -webkit-text-stroke: 1.5px rgb(44, 32, 32);
+}
+#t2 {
+    backdrop-filter: blur(5px);
+    color: white;
+    top: 158px;
+    letter-spacing: 2px;
+    left: 320px;
+    font-size: 40px;
+    font-weight: 100;
+}
+#t3 {
+    backdrop-filter: blur(5px);
+    color: white;
+    top: 202px;
+    left: 285px;
+    letter-spacing: 2px;
+    font-size: 44px;
+}
+#t4 {
+    letter-spacing: 1px;
+    color: white;
+    font-size: 26px;
+    top: 290px;
+    left: 300px;
+}
+.button {
+    color: white;
+    font-size: 26px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    background-color: rgb(65, 128, 211);
+    width: 202px;
+    height: 50px;
+    top: 370px;
+    left: 395px;
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+    border-radius: 40px;
+}
+#heroImg {
+    position: absolute;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.about-us-container {
+    width: 100%;
+    height: 1442px;
+    background-color: rgb(46, 33, 94);
+    margin-top: 406px;
+    border-radius: 10px;
+}
+
 /* TICLETS CSS */
-body{
+
     .Ticket-Headline {
         background-color:#2E215E;
         font-family:"Rockwell"
@@ -40,7 +130,7 @@ body{
 
 .Nav-Bar-Buttons{
     color: black;
-
+}
     
 /* INFO CSS */
     body {
