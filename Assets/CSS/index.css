@@ -39,6 +39,7 @@ body{
         }
 
     /* Hero Section */
+
         .heroimgContainer {
             position: relative;
             height: 730px;
@@ -97,6 +98,7 @@ body{
             position: absolute;
             z-index: 999;
             cursor: pointer;
+            align-content: center;
             border-radius: 40px;
         }
         #heroImg {
@@ -113,47 +115,108 @@ body{
         .about-us-container {
             z-index: 1;
             width: 100%;
-            height: 1442px;
+            height: 2300px;
             background-color: rgb(46, 33, 94);
             margin-top: 406px;
             border-radius: 10px;
         }
+        .aboutUsText{
+            position: relative;
+            margin-left: 20px;
 
+            color: black;
+        }
+        #aboutUsHeader{
+            position: relative;
+            top: 55px;
+            font-size: 50px;
+            color: white;
+            text-align: center;
+        }
         .section1-box{
             background-color: #F2F2F2;
             position: absolute;
-            top: 1500px;
+            top: 1620px;
             left: 50px;
-            width: 55%;
+            width: 56%;
             border-radius: 70px;
-            height: 400px;
+            height: 235px;
         }
-        .section1-img{
-            position: absolute;
+        .section1-img-box{
+            position: relative;
             left: 68%;
-            top: 1525px;
+            top: 230px;
             background-color: #F2F2F2;
             height: 356px;
             width: 448px;
         }
-        .section1Text{
-            color: black;
-        }
-
-        .section2-img{
+        #sec1Img{
             position: absolute;
-            right: 68%;
-            top: 2125px;
-            background-color: #F2F2F2;
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        
+        }
+       
+
+        .section2-img-box{
+            position: relative;
+            left: 5%;
+            top: 505px;
+            background-color: #F2F2F2; 
             height: 356px;
             width: 448px;
+        }
+        #sec2Img{
+            position: absolute;
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
         }
         .section2-box{
             background-color: #F2F2F2;
             position: absolute;
-            top: 2100px;
+            top: 2150px;
             left: 700px;
             width: 55%;
             border-radius: 70px;
             height: 400px;
         }
+       #aboutUsH1{
+        margin-left: 50px;
+        font-size: 30px;
+       }
+       #aboutUsText1{
+        letter-spacing: 1px;
+        font-size: 22px;
+       }
+
+       #aboutUsH2{
+        font-size: 30px;
+        margin-left: 50px;
+       }
+       #aboutUsText2{
+        font-size: 22px;
+        letter-spacing: 1px;
+       }
+       .SubHeading{
+        font-weight: bold;
+       }
+       #endingText{
+        font-size: 40px;
+        text-align: center;
+        position: relative;
+        top: 55%;
+       }
+       #moreInfoBtn{
+        background-color: #514193;
+        position: relative;
+        height: 70px;
+        width: 250px;
+        top: 57%;
+        margin-left: 350px;
+        
+       }
+        
