@@ -101,6 +101,10 @@ body{
             align-content: center;
             border-radius: 40px;
         }
+
+        .button:hover{
+            opacity: 0.95;
+        }
         #heroImg {
             position: absolute;
             object-fit: fill;
@@ -269,7 +273,83 @@ body{
         width: 270px;
         height: 70px;
        }
-       
+
+
+
+       /* footer section */
+
+      .footer-box{
+
+        width: 100%;
+        height: 400px;
+        z-index: 999;
+       }
+
+       .footer-container{
+        display: flex;
+        gap: 400px;
+        width: 100%;
+        height: 100%;
+        background-color: #2C234F;
+       }
+
+       #footerLogo{
+        z-index: 1000;
+        margin-top: -70px;
+        width: 400px;
+        height: 305px;
+
+       }
+
+       #contact{
+        position: relative;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 40px;
+       }
+       #copyright{
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 40px;
+       }
+
+       .categories{
+        color: white;
+        cursor: pointer;
+       }
+       .categoriesH1{
+        font-size: 17px;
+       }
+    
+       /* .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 25px;
+        text-align: center;
+        text-decoration: none;
+        margin: 20px 4px;
+        border-radius: 60%;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+       .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        } */
 
        
        
