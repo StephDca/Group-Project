@@ -219,4 +219,57 @@ body{
         margin-left: 350px;
         
        }
-        
+       
+
+       /* LINE UP SECTION */
+
+       #lineUpHeader{
+        position: relative;
+        text-align: center;
+        margin-top: 48%;
+        font-size: 44px;
+        margin-left: 85px;
+        font-weight: bolder;
+        letter-spacing: 1px;
+        color: black;
+       }
+
+       .Line-Up-Box{
+            z-index: 999;
+            width: 100%;
+            height: 860px;
+            gap: 150px;
+            display: flex;
+            justify-content: center;
+       }
+       .lineup-box-image{
+            margin-top: 50px;
+            height: 418px;
+            width: 333px;
+            background-color: #d2d0d0;
+       }
+        .lineUpContainer1{
+            background-color: antiquewhite;
+            height: 418px;
+            width: 333px;
+
+       }
+       
+       .line-up-text-box{
+        letter-spacing: 1px;
+        color: black;
+        width: 100;
+        text-align: center;
+       }
+
+       #LineUpBtn{
+        background-color: #2C234F;
+        margin-top: 4700px;
+        margin-left: 335px;
+        width: 270px;
+        height: 70px;
+       }
+       
+
+       
+       
