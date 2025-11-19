@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="style.css">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tickets</title>
+    <div class="Nav-Bar-Box">
+        <img id="logo" src="/Assets/Images/logo.png" alt="">
+        <div class="Nav-Bar-Buttons-Container">
+            <h2 class="Nav-Bar-Buttons" >Index</h2>
+            <h2 class="Nav-Bar-Buttons" >Line Up</h2>
+            <h2 class="Nav-Bar-Buttons" >Info</h2>
+        </div>
+    </div>
 </head>
 
 <body>
-    <div class="Nav-Bar-Box">
-        <div class="Nav-Bar-Buttons-Container">
-            <h2 class="Nav-Bar-Buttons">Home Page</h2>
-            <h2 class="Nav-Bar-Buttons">Line Up</h2>
-            <h2 class="Nav-Bar-Buttons">Info</h2>
-        </div>
-    </div>
 
     <h1>Tickets</h1>
-
     <p> Choose from a variety of tickets to the most exclusive music festival of the year. Whether you want to go for one day or camp out for the weekend
     we have the perfect ticket for you. Our new V.I.P. tickets allow you to meet your favourite artists and live luxuriously in a glamorous campervan 
-    for the weekend, as well as bottomless drinks.</p>
+    for the weekend, as well as bottomless drinks.</p> 
 
     <!-- TABLE -->
     <table>
@@ -29,7 +30,7 @@
             <th>Amount</th>
         </tr>
 
-        <!-- SHOW EACH TYPE OF TICKET-->
+        <!-- TEMPLATE ROW EXAMPLE (each dropdown gets its own ID automatically) -->
         <tr>
             <td>Saturday Basic</td>
             <td>Grants access to the festival on Saturday</td>
@@ -114,9 +115,9 @@
             </td>
         </tr>
     </table>
-   <!--JAVA SCRIPT (WILL MOVE LATER-->
+
     <script>
-        
+        // Handle dropdown toggle for every button
         document.querySelectorAll(".dropbtn").forEach(button => {
             button.addEventListener("click", function () {
                 let dropdown = this.nextElementSibling;
