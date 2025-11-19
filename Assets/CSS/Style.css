@@ -1,27 +1,44 @@
 
 
 /* TICLETS CSS */
-
-    .Ticket-Headline {
-        background-color:#2E215E;
-        font-family:"Rockwell"
-    }
-
-.Nav-Bar-Box{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 85px;
-    background-color: 2C234F;
+/* Basic menu styling*/
+/* Basic dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-.Nav-Bar-Buttons-Container{
-    display: flex;
+.dropbtn {
+    padding: 8px 12px;
+    cursor: pointer;
 }
 
-.Nav-Bar-Buttons{
-    color: black;
+/* Hide dropdown content by default */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(44 35 79);
+    color:aliceblue;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
 }
+
+/* Show dropdown when .show is added by JS */
+.dropdown-content.show {
+    display: block; 
+}
+
+.dropdown-content p {
+    padding: 8px 12px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.dropdown-content p:hover {
+    background-color: #d9d9d9;
+}
+
     
 /* INFO CSS */
     body {
