@@ -116,20 +116,74 @@ body {
 }
 
 /* Adds a footer [must put in Stephanie's later] */
- .footer {
-    background-color: #1e0033;
-    color: #f5eec2;
-    padding: 25px 0;
-    text-align: center;
-  }
 
-  .social-links a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-  }
 
-  .social-links a:hover {
-    text-decoration: underline;
-  }
+      .footer-box{
+
+        width: 100%;
+        height: 400px;
+        z-index: 800;
+       }
+
+       .footer-container{
+        display: flex;
+        gap: 400px;
+        width: 100%;
+        height: 100%;
+        background-color: #2C234F;
+       }
+
+       #footerLogo{
+        z-index: 1000;
+        margin-top: -70px;
+        width: 400px;
+        height: 305px;
+
+       }
+
+       #contact{
+        position: relative;
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 40px;
+       }
+       #copyright{
+        font-size: 16px;
+        margin-left: 50px;
+        margin-top: 40px;
+       }
+
+       .categories{
+        color: white;
+        cursor: pointer;
+       }
+       .categoriesH1{
+        font-size: 17px;
+       }
+    
+       .links{
+        color: white;
+        text-decoration: none;
+        display: flex;
+        margin-top: 20px;
+       }
+
+  /* terms & condition pop up box */
+
+
+       .termsConds{
+        visibility: hidden;
+        padding: 15px;
+        border-radius: 5%;
+        background-color: #d2d0d0;
+        width: 1000px;
+        height: 900px;
+        z-index: 999;
+        bottom: 10px;
+        justify-self: center;
+        justify-items: center;
+        color: black;
+        font-size: 10.8px;
+       }
+
 
