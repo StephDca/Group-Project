@@ -1,25 +1,139 @@
+<!DOCTYPE html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Assets/CSS/Style.css">
-    <link rel="JavaScript" href="/Assets/JS/main.js">
-    <title> Tickets </title>
-</head>
-<body>
+    <title>Tickets</title>
     <div class="Nav-Bar-Box">
+        <img id="logo" src="/Assets/Images/logo.png" alt="">
         <div class="Nav-Bar-Buttons-Container">
-            <h2 class="Nav-Bar-Buttons">Home Page</h2>
-            <h2 class="Nav-Bar-Buttons">Line Up</h2>
-            <h2 class="Nav-Bar-Buttons">Info</h2>
+            <h2 class="Nav-Bar-Buttons" >Index</h2>
+            <h2 class="Nav-Bar-Buttons" >Line Up</h2>
+            <h2 class="Nav-Bar-Buttons" >Info</h2>
         </div>
     </div>
-<p class="Tickets-boxes"> 
-  <h1 class="Ticket-headline">Tickets</h1>
-</p>
+</head>
 
-  
-    
+<body>
+
+    <h1>Tickets</h1>
+    <p> Choose from a variety of tickets to the most exclusive music festival of the year. Whether you want to go for one day or camp out for the weekend
+    we have the perfect ticket for you. Our new V.I.P. tickets allow you to meet your favourite artists and live luxuriously in a glamorous campervan 
+    for the weekend, as well as bottomless drinks.</p> 
+
+    <!-- TABLE -->
+    <table>
+        <tr>
+            <th>Ticket Type</th>
+            <th>Description</th>
+            <th>Price</th>
+            <th>Amount</th>
+        </tr>
+
+        <!-- TEMPLATE ROW EXAMPLE (each dropdown gets its own ID automatically) -->
+        <tr>
+            <td>Saturday Basic</td>
+            <td>Grants access to the festival on Saturday</td>
+            <td>€100</td>
+            <td>
+                <div class="dropdown">
+                    <button class="dropbtn">Ticket</button>
+                    <div class="dropdown-content">
+                        <p>1</p><p>2</p><p>3</p><p>4</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Sunday Basic</td>
+            <td>Grants access to the festival on Sunday</td>
+            <td>€100</td>
+            <td>
+                <div class="dropdown">
+                    <button class="dropbtn">Ticket</button>
+                    <div class="dropdown-content">
+                        <p>1</p><p>2</p><p>3</p><p>4</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Weekend Basic</td>
+            <td>Grants access to the festival all weekend</td>
+            <td>€175</td>
+            <td>
+                <div class="dropdown">
+                    <button class="dropbtn">Ticket</button>
+                    <div class="dropdown-content">
+                        <p>1</p><p>2</p><p>3</p><p>4</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Saturday Early Access</td>
+            <td>Grants access before official opening time</td>
+            <td>€130</td>
+            <td>
+                <div class="dropdown">
+                    <button class="dropbtn">Ticket</button>
+                    <div class="dropdown-content">
+                        <p>1</p><p>2</p><p>3</p><p>4</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Sunday Early Access</td>
+            <td>Grants access before official opening time</td>
+            <td>€130</td>
+            <td>
+                <div class="dropdown">
+                    <button class="dropbtn">Ticket</button>
+                    <div class="dropdown-content">
+                        <p>1</p><p>2</p><p>3</p><p>4</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>V.I.P.</td>
+            <td>All-weekend access + meet & greet + free bar</td>
+            <td>€300</td>
+            <td>
+                <div class="dropdown">
+                    <button class="dropbtn">Ticket</button>
+                    <div class="dropdown-content">
+                        <p>1</p><p>2</p><p>3</p><p>4</p>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <script>
+        // Handle dropdown toggle for every button
+        document.querySelectorAll(".dropbtn").forEach(button => {
+            button.addEventListener("click", function () {
+                let dropdown = this.nextElementSibling;
+                dropdown.classList.toggle("show");
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                document.querySelectorAll(".dropdown-content").forEach(menu => {
+                    menu.classList.remove('show');
+                });
+            }
+        }
+    </script>
+
 </body>
 </html>

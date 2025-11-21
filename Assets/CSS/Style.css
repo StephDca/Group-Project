@@ -1,93 +1,42 @@
 
 
 /* TICLETS CSS */
-
-    .Ticket-Headline {
-        background-color:#2E215E;
-        font-family:"Rockwell"
-    }
-
-.Nav-Bar-Box{
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 85px;
-    background-color: 2C234F;
+/* Basic menu styling*/
+/* Basic dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-.Nav-Bar-Buttons-Container{
-    display: flex;
+.dropbtn {
+    padding: 8px 12px;
+    cursor: pointer;
 }
 
-.Nav-Bar-Buttons{
-    color: black;
-}
-    
-/* INFO CSS */
-    body {
-  background-color: black;
-  color: rgb(255 255 204);
-  font-family: Arial, Helvetica, sans-serif, monospace;
-}
-    
-    .concert-image-info {
-    filter: brightness(50%);
-    background-image: url("https://images.pexels.com/photos/154147/pexels-photo-154147.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
-    background-size: fill;
-    background-position: center;
-    width: 100%;
-    height: 500px;  
-}
-
-
-.concert-image-infotwo {
-    background-image: url("https://www.irishtimes.com/resizer/cxkl2-fIaEqKZLt6AymOvkloXb8=/1600x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/ARFLNXK3VW6DWQOW2QML5KRY74.jpg");
-    background-size: fill;
-    background-position: center;
-    width: 100%;
-    height: 500px;
-}
-
-.overlay-text-info {
+/* Hide dropdown content by default */
+.dropdown-content {
+    display: none;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black */
-    color: yellow;
-    padding: 40px 700px;
-    font-size: 40px;
-    border-radius: 8px;
-    text-align: center;
-    white-space: nowrap;
+    background-color: rgba(44 35 79);
+    color:aliceblue;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.overlay-text-infotwo {
-    position: absolute;
-    top: 58%;
-    left: 50%;
-    transform: translate(-50%, -50%);  
-    color: white;
-    font-size: 35px;
-    text-align: center;
-    white-space: nowrap;
-}
-      
-.text-box-info {
-width: 1473px;
-height: 600px;
-border: 2px solid #000;
-padding: 10px;
-background-color: #2E215E;
-background-size: fill;
+/* Show dropdown when .show is added by JS */
+.dropdown-content.show {
+    display: block; 
 }
 
-.text-box-infotwo {
-width: 1473px;
-height: 600px;
-border: 2px solid #000;
-padding: 10px;
-background-color: #8C003C;
-background-size: fill;
+.dropdown-content p {
+    padding: 8px 12px;
+    margin: 0;
+    cursor: pointer;
 }
 
+.dropdown-content p:hover {
+    background-color: #d9d9d9;
+}
+
+    

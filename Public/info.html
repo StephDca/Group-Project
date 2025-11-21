@@ -1,44 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-	<link rel="stylesheet" href="Style.css">
-		<!-- will add CSS code later -->
+	<!-- linking CSS file with HTML file -->
+	<link rel="stylesheet" href="stylesheetinfo.css">
+		<!-- title of webpage -->
 		<title> Info Page </title>
 		</head>
 	
 <body>
+		   <!-- nav bar -->
+    <div class="Nav-Bar-Box">
+        <img id="logo" src="/Assets/Images/logo.png">
+        <div class="Nav-Bar-Buttons-Container">
+			<!-- adds the buttons for nav bar from CSS sheet -->
+            <h2 class="Nav-Bar-Buttons" >Homepage</h2>
+            <h2 class="Nav-Bar-Buttons" >Tickets</h2>
+            <h2 class="Nav-Bar-Buttons" >Lineup</h2>
+        </div>
+    </div>
+
+	<!-- adds an image edited in CSS file -->
 	<div class="concert-image-info">
+		<!-- displays text over the image -->
 		<div class="overlay-text-info"> INFO </div>
 		<div class="overlay-text-infotwo"> 23.6.2025 </div>
 	</div>
+
+	<!-- adds a text box to put text in --> 
 	<div class="text-box-info">
-	<h1 style="font-size: 40px; font-family: 'Helvetica';"> DETAILS </h1>
-		<h3 style="font-size: 40px; font-family: 'sans-serif'; color: yellow; text-align: center;"> WHERE? </h3>
-			<p style="font-size: 25px; text-align: center; color: rgb(203, 43, 112)"> 
+	<!-- adds colour to the text and font -->
+	<h1 style="text-align: center; font-size: 40px; font-family: 'Helvetica';"> DETAILS </h1>
+		<h3 style="font-size: 40px; font-family: 'sans-serif'; color: #87CEEB; text-align: left;"> WHERE? </h3>
+			<!-- paragraph -->
+			<i> <p style="font-size: 30px; text-align: left; color: #D9D9D9;"> 
 								The Dublin Summer Music Air festival will be held at 3ARENA on June 23rd 2026. Limited parking available. 
 								Disability access is provided. Wristband stations are located at the main entrance and requires your ticket (either QR code or physical ticket).
 								Bus stop available near the premises. Partnered with AOIFE (Association of Irish Festivals and Events), we aim to bring you a summery experience. </p>
-		<h3 style="font-size: 40px; color: rgb(25.5%, 50.2%, 82.7%); text-align: center;"> WHEN? </h3>
-			<p style="font-size: 22px; text-align: center; color: rgb(94.9%, 84.31%, 13.3%)"> July 17th -  19th 2026 </p>
-			<p style="font-size: 22px; text-align: center; color: rgb(94.9%, 84.31%, 13.3%)"> Starting time: 18:00p.m. </p>
-			<p style="font-size: 22px; text-align: center; color: rgb(94.9%, 84.31%, 13.3%)"> Ending time: 22:00p.m. </p>
-			<p style="font-size: 22px; text-align: center; color: rgb(94.9%, 84.31%, 13.3%)"> Open to all music lovers and people who want a great time! </p>
-	</div>
-		<div class="concert-image-infotwo">
+			</i>
+		<h3 style="font-size: 40px; color: #87CEEB; text-align: left; font-family: 'Helvetica';"> WHEN? </h3>
+			<p style="font-size: 30px; text-align: left; color: #E0CD67;"> July 23th -  25th 2026 </p>
+			<p style="font-size: 30px; text-align: left; color: #E0CD67;"> Starting time: 18:00p.m. </p>
+			<p style="font-size: 30px; text-align: left; color: #E0CD67;"> Ending time: 22:00p.m. </p>
+			<h4 style="font-size: 35px; text-align: center; color: light-gray; font-family: 'sans-serif';"> Open to all music lovers and people who want a great time! </h4>
+			
+			</div>
+		<!-- adds another image to divide the page --> 
+		<div class="concert-image-infotwo"> 
 		</div>
+	<!-- adds textbox for text using CSS -->
 	<div class="text-box-infotwo">
-		<h1 style="font-size: 40px;"> ABOUT US </h1>
-			<h3 style="font-size: 40px; font-family: 'sans-serif'; color: rgb(100%, 51%, 51%); text-align: center;"> WHO ARE WE? </h3>	
-				<p style="font-size: 30px; text-align: center; color: rgb(30.6%, 92.9%, 45.1%);"> 
-				Summer Music Air was a humble project launched back in 2022 with only around 20 community members, founded by Simon Quill and Margaret Forge. It was a project of hope to gather people together to celebrate summer after the pandemic. 
+		<!-- centers the text and changes size -->
+		<h1 style="text-align: center; font-size: 40px;"> ABOUT US </h1>
+			<h3 style="font-size: 40px; font-family: 'sans-serif'; color: #FFF3C4; text-align: center;"> WHO ARE WE? </h3>
+				<!-- 'color:' changes color of text -->
+				<p style="font-size: 30px; text-align: center; color: #DBC9FA;"> 
+				Summer Music Air was a humble project launched back in 2023 with only around 20 community members, founded by Simon Quill and Margaret Forge. It was a project of hope to gather people together to celebrate summer after the pandemic. 
 				Now, we have over 1,000 volunteers and are considering to expand worldwide thanks to the love and support we were given. Today, it is a festival for the people of music and we are delighted to welcome everyone who attends. 
 				If you would like to volunteer, please send us an email. </p>
-			<h3 style="font-size: 40px; font-family: 'Monospace'; color: rgb(73, 214, 245); text-align: center;"> LOCATION </h3>	
-			<p style="font-size: 25px; text-align: center; color: rgb(74.9%, 49.41%, 96.08%)">
+			<!-- centers text and adds font to the text as well as changes colour -->
+			<h3 style="font-size: 40px; font-family: 'Monospace'; color: #FFF3C4; text-align: left;"> LOCATION </h3>	
+			<p style="font-size: 27px; text-align: left; color: #00CFFF">
 				Bus stop near the venue. Check <a href="https://3arena.ie/"> 3ARENA </a> page for more details. 
 				Location: North Wall Quay, Dublin 1
 				Approx. 1hour walk from Heuston Train Station.
 				Follow our IG for frequent updates! Be sure to check out our amazing Lineup page as well!	</p>
 	</div>
+
+	<!-- footer -->
+	<footer class="footer">
+			<div class="footer-content">
+				<p style="color: pink;">© 2026 Summer Music Air Festival</p>
+			<div class="social-links">
+      <a href="Index.html">Homepage</a>
+      <a href="tickets.html">Tickets</a>
+      <a href="lineup.html">Lineup</a>
+				<P> Email for inquiry: dublinsummermusicair@dublinfestival.com
+    </div>
+  </div>
+		</footer>
 </body>
 </html>
