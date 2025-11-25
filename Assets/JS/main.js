@@ -15,3 +15,11 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+
+// //Home page
+// function toView(){
+//   const elementToView = getElementById("toviewEle");
+//   elementToView.scrollIntoView();
+// }
