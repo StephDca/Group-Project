@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	<!-- linking CSS file with HTML file -->
-	<link rel="stylesheet" href="stylesheetinfo.css">
+	<link rel="stylesheet" href="../Assets/CSS/stylesheetinfo.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- title of webpage -->
 		<title> Info Page </title>
@@ -11,12 +11,14 @@
 <body>
 		   <!-- nav bar -->
     <div class="Nav-Bar-Box">
-        <img id="logo" src="/Assets/Images/logo.png">
+        <a href="../Public/Index.html">
+                <img  id="logo" src="../Assets/Images/logo.png" alt="">
+            </a>
         <div class="Nav-Bar-Buttons-Container">
 			<!-- adds the buttons for nav bar from CSS sheet -->
-            <h2 class="Nav-Bar-Buttons" >Homepage</h2>
-            <h2 class="Nav-Bar-Buttons" >Tickets</h2>
-            <h2 class="Nav-Bar-Buttons" >Lineup</h2>
+             <a  id="ticket-button" class="Nav-Bar-Buttons"href="../Public/tickets.html">Tickets</a>
+            <a id="ticket-button" class="Nav-Bar-Buttons" href="../Public/lineUp.html">Line Up</a>
+            <a id="ticket-button" class="Nav-Bar-Buttons" href="../Public/info.html">Info</a>
         </div>
     </div>
 
@@ -70,7 +72,7 @@
 	<!-- footer -->
 	 <footer class="footer-container">
             <div class="socialMediaContainer">
-                <img id="footerLogo" src="/Assets/Images/logo.png" alt="">
+                <img id="footerLogo" src="../Assets/Images/logo.png" alt="">
                 <a href="#" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-instagram"></a>
                 <a href="#" class="fa fa-twitter"></a>
