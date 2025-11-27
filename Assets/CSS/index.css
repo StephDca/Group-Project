@@ -269,6 +269,21 @@ html{
             width: 333px;
             background-color: #d2d0d0;
        }
+       #lineup-image1{
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+       }
+       #lineup-box-image2{
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+       }
+       #lineup-box-image3{
+            object-fit: fill;
+            width: 100%;
+            height: 100%;   
+       }
         .lineUpContainer1{
             background-color: antiquewhite;
             height: 418px;
@@ -293,6 +308,28 @@ html{
        }
 
 
+
+       /* top songs section */
+       #h1TopSongs{
+        text-align: center;
+       }
+       .top-songs-box{
+            z-index: 999;
+            width: 100%;
+            height: 860px;
+            gap: 150px;
+            display: flex;
+            justify-content: center;
+
+       }
+       .topSongsContainer{
+            background-color: #3E2799;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+            height: 418px;
+            width: 385px;
+       }
 
        /* footer section */
 
