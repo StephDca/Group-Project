@@ -15,3 +15,21 @@ window.onclick = function(event) {
     }
   }
 }
+
+// Dropdown for each button
+        document.querySelectorAll(".dropbtn").forEach(button => {
+            button.addEventListener("click", function () {
+                let dropdown = this.nextElementSibling;
+                dropdown.classList.toggle("show");
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                document.querySelectorAll(".dropdown-content").forEach(menu => {
+                    menu.classList.remove('show');
+                });
+            }
+        }
+    
