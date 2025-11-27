@@ -115,8 +115,38 @@ body {
 		margin: 0 auto;
 }
 
-/* Adds a footer [must put in Stephanie's later] */
+	/* Adds another text box to display more information */
+	.text-box-infothree {
+		width: 1480px;
+		height: 530px;
+		border: 2px solid #000;
+		padding: 10px;
+		background-color: #00008B;
+		background-size: fill;
+	border: 10px solid #1E90FF; 
+	}
 
+/* Adds container for the list */
+ .listcontainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+/* Adjusts position of list column */
+  .listcolumn {
+    flex: 1;
+  }
+
+/* Aligns the list */
+ ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 43px;
+    line-height: 1.4;
+  }
+
+/* Footer Section */
 
       .footer-box{
 
@@ -185,6 +215,7 @@ body {
         color: black;
         font-size: 10.8px;
        }
+
 
 
 
