@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .dropdown {
     position: relative;
@@ -163,22 +166,3 @@ body {
        }
 
 
-
-
-       /* terms & condition pop up box */
-
-
-       .termsConds{
-        visibility: hidden;
-        padding: 15px;
-        border-radius: 5%;
-        background-color: #d2d0d0;
-        width: 1000px;
-        height: 900px;
-        z-index: 999;
-        bottom: 10px;
-        justify-self: center;
-        justify-items: center;
-        color: black;
-        font-size: 10.8px;
-       }
