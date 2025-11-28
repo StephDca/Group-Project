@@ -362,10 +362,23 @@ html{
             height: 20px;
             background-color: white; /* or whatever color the hole is */
             border-color: black;
+            border-style: solid;
             border-radius: 50%;
             transform: translate(-50%, -50%);
             z-index: 5;
 
+       }
+       .cd-inner-middle{
+         position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 10px;   /* adjust size */
+            height: 10px;
+            background-color: grey; /* or whatever color the hole is */
+            border-color: rgb(126, 123, 123);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
        }
 
        /* footer section */
@@ -421,26 +434,6 @@ html{
        }
 
 
-
-
-       /* terms & condition pop up box */
-
-
-       .termsConds{
-        visibility: hidden;
-        padding: 15px;
-        border-radius: 5%;
-        background-color: #d2d0d0;
-        width: 1000px;
-        height: 900px;
-        z-index: 999;
-        bottom: 10px;
-        justify-self: center;
-        justify-items: center;
-        color: black;
-        font-size: 10.8px;
-       }
-      
 
        
        
